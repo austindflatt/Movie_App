@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './App.css';
-import { makeStyles } from '@material-ui/core/styles';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Grid from '@material-ui/core/Grid';
-import Container from '@material-ui/core/Container';
+
 import MovieList from './components/MovieList';
 
 function App() {
@@ -25,9 +22,7 @@ function App() {
 
   return (
     <div>
-      <Container maxWidth="sm">
       <MovieList movies = {movies} />
-      </Container>
     </div>
   );
 }
