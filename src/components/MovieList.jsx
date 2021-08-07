@@ -4,7 +4,7 @@ const MovieList = (props) => {
     return (
         <>
             {props.movies.map((movie, index)=> <div>
-                <img src={movie.poster_path} alt='movie'></img>
+                <img src={`https://themoviedb.org/t/p/w440_and_h660_face${movie.poster_path}`} alt='movie'></img>
             </div>)}
         </>
     )
