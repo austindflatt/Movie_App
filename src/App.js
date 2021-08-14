@@ -10,7 +10,7 @@ function App() {
 
   const getMovieRequest = async () => {
     const url = "https://api.themoviedb.org/3/movie/upcoming?api_key=d8e8a6fc7a59b84ca2fc3354fcb4a913&language=en-US"
-
+    
     const response = await fetch(url);
     const responseJson = await response.json();
 
@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div>
-      <MovieListHeading heading='Movies' />
+      <MovieListHeading heading='Movies Database' />
       <SearchBar searchValue={searchValue} setSearchValue={setSearchValue} />
       <MovieList movies = {movies} />
     </div>

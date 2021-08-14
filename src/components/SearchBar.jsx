@@ -4,11 +4,11 @@ import TextField from '@material-ui/core/TextField';
 const SearchBar = (props) => {
     return (
         <>
-        <TextField 
+        {/* <TextField 
         label="Search Whatever" 
         value={props.value}
         onChange={(event)=> props.setSearchValue(event.target.value)}
-        variant="outlined" />
+        variant="outlined" /> */}
         </>
     )
 }
