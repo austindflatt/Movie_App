@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# 🎞 Movie Database
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Movie Database built using React.js, and The Movie Database API
 
 ![event](https://github.com/austindflatt/React_Movie_App/blob/main/movie-db.png)
 
